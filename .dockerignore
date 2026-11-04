@@ -1,0 +1,5 @@
+# Le builder legacy (sans buildx) envoie tout le contexte au daemon :
+# on exclut donc tout ce dont le build n'a pas besoin.
+.git
+__pycache__
+*.pyc
